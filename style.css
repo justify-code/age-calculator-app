@@ -120,7 +120,12 @@ button:hover{
      .container{
         width: 100%;
         margin-top: 2rem;
-        height: 100vh;
+        height: fit-content;
+        border-radius: 1rem;
+    }
+    .title {
+        font-size: 1.5rem;
+        font-weight: bolder;
     }
     .wrap{
         display: flex; 
